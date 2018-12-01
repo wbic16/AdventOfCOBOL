@@ -1,1031 +1,1028 @@
-$cobc -x -free *.cobc -o main
-$main
+./bin/PROB1 >Result1.txt
 Welcome to the Advent of COBOL 2018 Edition!
 --------------------------------------------
-Source Data: https://adventofcode.com/2018/day/1/input
---------------------------------------------
  
-Good Number!         009
-Good Number!         001
-Naughty Number!      011
-Good Number!         012
-Good Number!         017
-Naughty Number!      006
-Good Number!         014
-Naughty Number!      001
-Naughty Number!      017
-Good Number!         005
-Naughty Number!      006
-Naughty Number!      010
-Naughty Number!      014
-Good Number!         009
-Good Number!         012
-Naughty Number!      010
-Naughty Number!      013
-Good Number!         010
-Naughty Number!      009
-Good Number!         004
-Naughty Number!      017
-Naughty Number!      011
-Good Number!         017
-Good Number!         020
-Naughty Number!      015
-Naughty Number!      013
-Good Number!         017
-Naughty Number!      010
-Good Number!         019
-Naughty Number!      015
-Good Number!         010
-Naughty Number!      003
-Naughty Number!      014
-Naughty Number!      003
-Naughty Number!      006
-Naughty Number!      018
-Naughty Number!      014
-Good Number!         001
-Naughty Number!      019
-Good Number!         011
-Naughty Number!      012
-Good Number!         017
-Naughty Number!      002
-Naughty Number!      008
-Good Number!         016
-Good Number!         015
-Good Number!         006
-Naughty Number!      001
-Good Number!         006
-Naughty Number!      017
-Good Number!         020
-Naughty Number!      006
-Naughty Number!      019
-Naughty Number!      018
-Naughty Number!      001
-Good Number!         003
-Naughty Number!      019
-Naughty Number!      016
-Good Number!         011
-Naughty Number!      005
-Good Number!         016
-Naughty Number!      005
-Naughty Number!      002
-Naughty Number!      011
-Naughty Number!      001
-Naughty Number!      002
-Good Number!         009
-Naughty Number!      008
-Naughty Number!      008
-Naughty Number!      011
-Naughty Number!      019
-Naughty Number!      006
-Naughty Number!      014
-Good Number!         013
-Naughty Number!      014
-Naughty Number!      007
-Naughty Number!      006
-Good Number!         016
-Naughty Number!      015
-Good Number!         008
-Naughty Number!      001
-Naughty Number!      014
-Good Number!         002
-Good Number!         008
-Naughty Number!      019
-Good Number!         002
-Good Number!         003
-Naughty Number!      016
-Good Number!         006
-Naughty Number!      009
-Naughty Number!      006
-Naughty Number!      014
-Good Number!         018
-Good Number!         004
-Good Number!         009
-Good Number!         001
-Good Number!         003
-Naughty Number!      010
-Good Number!         013
-Naughty Number!      017
-Good Number!         016
-Good Number!         019
-Good Number!         018
-Good Number!         020
-Good Number!         004
-Naughty Number!      009
-Naughty Number!      016
-Good Number!         018
-Naughty Number!      010
-Good Number!         015
-Naughty Number!      012
-Good Number!         016
-Naughty Number!      015
-Good Number!         018
-Good Number!         009
-Good Number!         015
-Naughty Number!      016
-Good Number!         003
-Good Number!         001
-Naughty Number!      014
-Naughty Number!      002
-Good Number!         018
-Naughty Number!      013
-Naughty Number!      011
-Good Number!         015
-Good Number!         016
-Naughty Number!      018
-Naughty Number!      001
-Naughty Number!      010
-Good Number!         012
-Good Number!         030
-Good Number!         012
-Good Number!         007
-Naughty Number!      003
-Good Number!         006
-Good Number!         009
-Good Number!         003
-Good Number!         012
-Naughty Number!      018
-Good Number!         004
-Good Number!         013
-Good Number!         002
-Naughty Number!      012
-Good Number!         013
-Good Number!         006
-Good Number!         006
-Good Number!         005
-Naughty Number!      023
-Good Number!         001
-Good Number!         016
-Naughty Number!      022
-Good Number!         003
-Naughty Number!      010
-Naughty Number!      020
-Naughty Number!      007
-Naughty Number!      012
-Naughty Number!      002
-Good Number!         012
-Good Number!         008
-Naughty Number!      013
-Naughty Number!      002
-Naughty Number!      015
-Naughty Number!      006
-Naughty Number!      013
-Good Number!         012
-Good Number!         009
-Good Number!         021
-Good Number!         009
-Naughty Number!      006
-Good Number!         022
-Naughty Number!      003
-Good Number!         012
-Good Number!         005
-Good Number!         015
-Good Number!         016
-Naughty Number!      011
-Good Number!         013
-Good Number!         008
-Good Number!         019
-Naughty Number!      001
-Good Number!         006
-Good Number!         003
-Good Number!         009
-Good Number!         010
-Good Number!         015
-Naughty Number!      004
-Good Number!         009
-Good Number!         004
-Good Number!         002
-Naughty Number!      005
-Naughty Number!      015
-Naughty Number!      001
-Good Number!         005
-Good Number!         015
-Naughty Number!      018
-Naughty Number!      011
-Naughty Number!      013
-Good Number!         006
-Naughty Number!      013
-Naughty Number!      011
-Naughty Number!      002
-Good Number!         019
-Good Number!         019
-Good Number!         016
-Naughty Number!      019
-Good Number!         006
-Good Number!         018
-Good Number!         014
-Good Number!         006
-Naughty Number!      011
-Good Number!         007
-Good Number!         001
-Naughty Number!      012
-Good Number!         017
-Good Number!         016
-Good Number!         007
-Good Number!         017
-Good Number!         019
-Naughty Number!      004
-Good Number!         016
-Good Number!         005
-Naughty Number!      013
-Naughty Number!      005
-Naughty Number!      013
-Good Number!         007
-Naughty Number!      008
-Good Number!         002
-Naughty Number!      004
-Good Number!         014
-Naughty Number!      018
-Naughty Number!      013
-Naughty Number!      010
-Naughty Number!      006
-Naughty Number!      002
-Good Number!         021
-Naughty Number!      015
-Good Number!         004
-Naughty Number!      003
-Naughty Number!      006
-Naughty Number!      006
-Good Number!         003
-Naughty Number!      004
-Good Number!         017
-Naughty Number!      007
-Good Number!         001
-Good Number!         014
-Good Number!         009
-Good Number!         016
-Good Number!         003
-Naughty Number!      015
-Naughty Number!      002
-Good Number!         004
-Naughty Number!      011
-Naughty Number!      011
-Naughty Number!      015
-Good Number!         016
-Naughty Number!      014
-Good Number!         015
-Good Number!         008
-Naughty Number!      005
-Naughty Number!      014
-Naughty Number!      014
-Naughty Number!      008
-Naughty Number!      004
-Naughty Number!      015
-Good Number!         003
-Naughty Number!      019
-Naughty Number!      006
-Naughty Number!      005
-Naughty Number!      017
-Good Number!         030
-Good Number!         009
-Good Number!         004
-Good Number!         002
-Good Number!         015
-Good Number!         018
-Naughty Number!      004
-Naughty Number!      002
-Naughty Number!      006
-Naughty Number!      016
-Good Number!         014
-Naughty Number!      010
-Naughty Number!      005
-Good Number!         019
-Good Number!         038
-Good Number!         016
-Naughty Number!      004
-Good Number!         007
-Good Number!         011
-Good Number!         019
-Good Number!         003
-Good Number!         009
-Naughty Number!      011
-Good Number!         018
-Naughty Number!      010
-Good Number!         004
-Naughty Number!      011
-Naughty Number!      012
-Naughty Number!      001
-Naughty Number!      004
-Good Number!         014
-Naughty Number!      006
-Good Number!         011
-Good Number!         016
-Good Number!         014
-Good Number!         007
-Good Number!         002
-Good Number!         003
-Naughty Number!      017
-Good Number!         018
-Good Number!         015
-Naughty Number!      009
-Good Number!         007
-Good Number!         009
-Naughty Number!      004
-Good Number!         010
-Good Number!         001
-Good Number!         012
-Naughty Number!      001
-Naughty Number!      019
-Naughty Number!      018
-Naughty Number!      010
-Naughty Number!      007
-Naughty Number!      005
-Naughty Number!      012
-Good Number!         019
-Good Number!         004
-Good Number!         012
-Good Number!         004
-Naughty Number!      017
-Naughty Number!      006
-Naughty Number!      006
-Naughty Number!      021
-Naughty Number!      011
-Good Number!         001
-Good Number!         002
-Naughty Number!      013
-Naughty Number!      007
-Good Number!         010
-Naughty Number!      007
-Good Number!         006
-Good Number!         006
-Good Number!         016
-Naughty Number!      010
-Good Number!         016
-Good Number!         013
-Naughty Number!      017
-Good Number!         021
-Naughty Number!      007
-Naughty Number!      007
-Good Number!         013
-Naughty Number!      012
-Good Number!         007
-Naughty Number!      014
-Naughty Number!      004
-Naughty Number!      001
-Naughty Number!      018
-Naughty Number!      006
-Naughty Number!      028
-Naughty Number!      012
-Good Number!         010
-Good Number!         017
-Naughty Number!      013
-Naughty Number!      003
-Good Number!         020
-Naughty Number!      005
-Good Number!         069
-Naughty Number!      016
-Good Number!         002
-Naughty Number!      008
-Good Number!         027
-Good Number!         002
-Good Number!         017
-Naughty Number!      012
-Good Number!         009
-Good Number!         005
-Good Number!         020
-Naughty Number!      005
-Good Number!         008
-Naughty Number!      006
-Good Number!         019
-Naughty Number!      009
-Good Number!         007
-Good Number!         006
-Good Number!         012
-Good Number!         013
-Good Number!         004
-Good Number!         013
-Good Number!         012
-Good Number!         005
-Good Number!         019
-Good Number!         014
-Good Number!         001
-Naughty Number!      007
-Naughty Number!      009
-Naughty Number!      010
-Good Number!         007
-Naughty Number!      009
-Naughty Number!      017
-Naughty Number!      014
-Naughty Number!      008
-Good Number!         011
-Good Number!         019
-Good Number!         005
-Naughty Number!      018
-Naughty Number!      002
-Naughty Number!      018
-Naughty Number!      004
-Good Number!         002
-Good Number!         018
-Good Number!         012
-Good Number!         007
-Naughty Number!      011
-Naughty Number!      007
-Naughty Number!      020
-Naughty Number!      013
-Naughty Number!      016
-Naughty Number!      001
-Good Number!         007
-Naughty Number!      015
-Naughty Number!      004
-Naughty Number!      015
-Good Number!         013
-Naughty Number!      012
-Good Number!         017
-Good Number!         008
-Naughty Number!      019
-Good Number!         018
-Good Number!         015
-Naughty Number!      011
-Naughty Number!      018
-Naughty Number!      018
-Naughty Number!      003
-Good Number!         016
-Good Number!         017
-Naughty Number!      018
-Naughty Number!      019
-Naughty Number!      007
-Good Number!         003
-Good Number!         009
-Good Number!         013
-Naughty Number!      016
-Naughty Number!      018
-Naughty Number!      014
-Good Number!         042
-Good Number!         032
-Good Number!         012
-Good Number!         001
-Good Number!         018
-Naughty Number!      020
-Naughty Number!      006
-Good Number!         011
-Naughty Number!      007
-Good Number!         014
-Good Number!         020
-Naughty Number!      009
-Good Number!         017
-Naughty Number!      013
-Good Number!         014
-Good Number!         008
-Naughty Number!      007
-Good Number!         009
-Naughty Number!      020
-Good Number!         003
-Naughty Number!      016
-Naughty Number!      005
-Good Number!         015
-Good Number!         017
-Good Number!         001
-Good Number!         016
-Naughty Number!      004
-Good Number!         013
-Good Number!         016
-Naughty Number!      002
-Good Number!         005
-Good Number!         015
-Good Number!         008
-Naughty Number!      022
-Good Number!         016
-Good Number!         017
-Naughty Number!      013
-Naughty Number!      016
-Good Number!         003
-Naughty Number!      002
-Good Number!         010
-Naughty Number!      014
-Good Number!         008
-Good Number!         018
-Naughty Number!      014
-Naughty Number!      018
-Naughty Number!      006
-Naughty Number!      002
-Good Number!         001
-Naughty Number!      004
-Naughty Number!      007
-Naughty Number!      004
-Good Number!         002
-Good Number!         015
-Good Number!         018
-Naughty Number!      015
-Good Number!         009
-Good Number!         009
-Naughty Number!      005
-Good Number!         023
-Good Number!         016
-Naughty Number!      015
-Good Number!         013
-Naughty Number!      007
-Good Number!         011
-Naughty Number!      016
-Good Number!         020
-Naughty Number!      007
-Good Number!         013
-Good Number!         014
-Good Number!         002
-Good Number!         009
-Naughty Number!      019
-Good Number!         015
-Good Number!         005
-Good Number!         006
-Naughty Number!      015
-Naughty Number!      005
-Naughty Number!      019
-Good Number!         022
-Naughty Number!      010
-Good Number!         002
-Good Number!         026
-Good Number!         003
-Naughty Number!      012
-Good Number!         014
-Naughty Number!      040
-Good Number!         015
-Naughty Number!      003
-Good Number!         018
-Good Number!         050
-Good Number!         025
-Good Number!         047
-Naughty Number!      016
-Good Number!         047
-Good Number!         017
-Good Number!         001
-Good Number!         006
-Naughty Number!      010
-Naughty Number!      007
-Good Number!         018
-Good Number!         008
-Good Number!         006
-Good Number!         025
-Naughty Number!      004
-Good Number!         041
-Naughty Number!      128
-Naughty Number!      003
-Naughty Number!      060
-Naughty Number!      094
-Naughty Number!      005
-Naughty Number!      037
-Naughty Number!      020
-Naughty Number!      023
-Good Number!         012
-Naughty Number!      007
-Good Number!         012
-Naughty Number!      008
-Good Number!         007
-Naughty Number!      017
-Naughty Number!      006
-Naughty Number!      005
-Naughty Number!      037
-Naughty Number!      001
-Good Number!         014
-Naughty Number!      018
-Good Number!         001
-Good Number!         019
-Naughty Number!      012
-Naughty Number!      017
-Naughty Number!      006
-Good Number!         018
-Good Number!         020
-Naughty Number!      025
-Naughty Number!      009
-Good Number!         061
-Good Number!         011
-Good Number!         115
-Naughty Number!      073
-Good Number!         057
-Naughty Number!      065
-Good Number!         009
-Naughty Number!      143
-Good Number!         008
-Good Number!         976
-Good Number!         255
-Good Number!         003
-Naughty Number!      010
-Naughty Number!      008
-Naughty Number!      018
-Naughty Number!      007
-Good Number!         014
-Naughty Number!      006
-Naughty Number!      003
-Naughty Number!      003
-Good Number!         018
-Naughty Number!      001
-Naughty Number!      006
-Naughty Number!      009
-Good Number!         017
-Good Number!         006
-Naughty Number!      010
-Good Number!         015
-Good Number!         005
-Good Number!         020
-Good Number!         010
-Good Number!         017
-Naughty Number!      011
-Naughty Number!      019
-Good Number!         015
-Naughty Number!      008
-Naughty Number!      010
-Good Number!         011
-Good Number!         019
-Good Number!         006
-Good Number!         002
-Good Number!         003
-Naughty Number!      004
-Good Number!         015
-Good Number!         010
-Good Number!         011
-Good Number!         006
-Good Number!         013
-Good Number!         015
-Naughty Number!      018
-Good Number!         015
-Naughty Number!      013
-Naughty Number!      006
-Good Number!         009
-Naughty Number!      010
-Naughty Number!      016
-Naughty Number!      008
-Good Number!         022
-Good Number!         019
-Good Number!         015
-Good Number!         007
-Good Number!         002
-Good Number!         014
-Naughty Number!      019
-Good Number!         013
-Good Number!         001
-Naughty Number!      004
-Naughty Number!      006
-Naughty Number!      002
-Naughty Number!      013
-Naughty Number!      016
-Good Number!         010
-Good Number!         007
-Naughty Number!      008
-Good Number!         019
-Naughty Number!      015
-Naughty Number!      006
-Naughty Number!      014
-Good Number!         013
-Naughty Number!      021
-Naughty Number!      004
-Naughty Number!      017
-Good Number!         010
-Good Number!         013
-Naughty Number!      014
-Good Number!         004
-Naughty Number!      006
-Good Number!         008
-Good Number!         016
-Naughty Number!      019
-Naughty Number!      008
-Naughty Number!      010
-Naughty Number!      003
-Naughty Number!      017
-Good Number!         012
-Good Number!         012
-Good Number!         021
-Good Number!         001
-Naughty Number!      002
-Good Number!         006
-Good Number!         014
-Good Number!         018
-Good Number!         004
-Good Number!         018
-Naughty Number!      016
-Good Number!         009
-Good Number!         013
-Good Number!         015
-Good Number!         012
-Good Number!         002
-Naughty Number!      006
-Naughty Number!      004
-Good Number!         018
-Good Number!         015
-Naughty Number!      010
-Naughty Number!      016
-Good Number!         017
-Naughty Number!      015
-Good Number!         020
-Good Number!         019
-Good Number!         019
-Good Number!         003
-Naughty Number!      019
-Good Number!         010
-Naughty Number!      015
-Good Number!         016
-Good Number!         003
-Naughty Number!      002
-Naughty Number!      014
-Good Number!         008
-Good Number!         001
-Naughty Number!      004
-Naughty Number!      002
-Good Number!         007
-Naughty Number!      020
-Naughty Number!      011
-Good Number!         010
-Naughty Number!      002
-Naughty Number!      017
-Good Number!         006
-Naughty Number!      009
-Naughty Number!      014
-Naughty Number!      007
-Naughty Number!      015
-Good Number!         013
-Good Number!         019
-Good Number!         018
-Good Number!         017
-Good Number!         008
-Naughty Number!      002
-Naughty Number!      010
-Naughty Number!      011
-Good Number!         009
-Naughty Number!      015
-Good Number!         009
-Naughty Number!      004
-Naughty Number!      009
-Good Number!         018
-Good Number!         016
-Good Number!         004
-Good Number!         013
-Naughty Number!      001
-Good Number!         005
-Good Number!         003
-Good Number!         003
-Good Number!         017
-Naughty Number!      003
-Good Number!         007
-Naughty Number!      013
-Good Number!         018
-Naughty Number!      016
-Good Number!         005
-Good Number!         017
-Good Number!         018
-Good Number!         014
-Naughty Number!      013
-Naughty Number!      016
-Good Number!         009
-Naughty Number!      017
-Good Number!         007
-Good Number!         005
-Naughty Number!      002
-Naughty Number!      015
-Naughty Number!      020
-Good Number!         003
-Good Number!         008
-Naughty Number!      001
-Good Number!         006
-Naughty Number!      007
-Naughty Number!      010
-Naughty Number!      006
-Good Number!         004
-Naughty Number!      008
-Good Number!         015
-Good Number!         001
-Naughty Number!      011
-Good Number!         002
-Good Number!         006
-Good Number!         015
-Good Number!         017
-Naughty Number!      011
-Good Number!         016
-Good Number!         012
-Good Number!         005
-Good Number!         014
-Naughty Number!      005
-Naughty Number!      019
-Good Number!         017
-Good Number!         020
-Naughty Number!      016
-Good Number!         012
-Naughty Number!      011
-Good Number!         017
-Good Number!         007
-Good Number!         018
-Good Number!         010
-Naughty Number!      012
-Good Number!         013
-Naughty Number!      016
-Good Number!         018
-Good Number!         017
-Naughty Number!      010
-Naughty Number!      013
-Naughty Number!      010
-Naughty Number!      013
-Good Number!         010
-Good Number!         010
-Good Number!         013
-Naughty Number!      001
-Good Number!         009
-Good Number!         001
-Naughty Number!      014
-Good Number!         007
-Naughty Number!      004
-Good Number!         009
-Naughty Number!      002
-Naughty Number!      019
-Naughty Number!      015
-Good Number!         001
-Naughty Number!      003
-Naughty Number!      006
-Naughty Number!      010
-Good Number!         007
-Naughty Number!      001
-Naughty Number!      002
-Naughty Number!      018
-Good Number!         012
-Naughty Number!      019
-Naughty Number!      006
-Good Number!         008
-Good Number!         008
-Naughty Number!      011
-Naughty Number!      004
-Naughty Number!      011
-Naughty Number!      007
-Good Number!         004
-Good Number!         017
-Good Number!         015
-Good Number!         005
-Good Number!         016
-Good Number!         004
-Naughty Number!      002
-Good Number!         017
-Naughty Number!      024
-Good Number!         018
-Good Number!         009
-Naughty Number!      006
-Naughty Number!      006
-Naughty Number!      028
-Naughty Number!      023
-Naughty Number!      011
-Naughty Number!      013
-Good Number!         022
-Naughty Number!      021
-Naughty Number!      003
-Good Number!         018
-Naughty Number!      022
-Good Number!         005
-Naughty Number!      009
-Good Number!         027
-Good Number!         010
-Good Number!         016
-Good Number!         011
-Good Number!         009
-Good Number!         020
-Good Number!         022
-Naughty Number!      002
-Good Number!         017
-Naughty Number!      010
-Good Number!         006
-Naughty Number!      007
-Good Number!         004
-Good Number!         006
-Good Number!         019
-Good Number!         005
-Naughty Number!      008
-Good Number!         002
-Good Number!         010
-Good Number!         014
-Naughty Number!      013
-Naughty Number!      019
-Naughty Number!      005
-Good Number!         016
-Good Number!         013
-Naughty Number!      009
-Good Number!         019
-Good Number!         015
-Good Number!         012
-Good Number!         008
-Naughty Number!      013
-Naughty Number!      018
-Good Number!         014
-Naughty Number!      005
-Good Number!         008
-Naughty Number!      014
-Naughty Number!      004
-Good Number!         005
-Good Number!         015
-Good Number!         009
-Good Number!         018
-Good Number!         014
-Naughty Number!      010
-Naughty Number!      013
-Naughty Number!      001
-Good Number!         008
-Naughty Number!      005
-Naughty Number!      018
-Good Number!         011
-Naughty Number!      007
-Naughty Number!      012
-Good Number!         017
-Naughty Number!      018
-Naughty Number!      020
-Good Number!         018
-Naughty Number!      009
-Naughty Number!      017
-Good Number!         009
-Good Number!         009
-Good Number!         013
-Good Number!         019
-Naughty Number!      005
-Naughty Number!      002
-Naughty Number!      020
-Naughty Number!      001
-Good Number!         018
-Good Number!         018
-Good Number!         015
-Naughty Number!      003
-Good Number!         014
-Naughty Number!      005
-Good Number!         011
-Naughty Number!      018
-Good Number!         016
-Good Number!         017
-Good Number!         001
-Good Number!         019
-Good Number!         001
-Good Number!         019
-Good Number!         012
-Good Number!         011
-Good Number!         015
-Good Number!         009
-Good Number!         002
-Good Number!         017
-Naughty Number!      005
-Naughty Number!      006
-Naughty Number!      005
-Naughty Number!      020
-Good Number!         010
-Good Number!         001
-Naughty Number!      005
-Naughty Number!      017
-Naughty Number!      003
-Naughty Number!      018
-Good Number!         013
-Good Number!         018
-Naughty Number!      007
-Good Number!         011
-Naughty Number!      005
-Naughty Number!      013
-Good Number!         002
-Good Number!         017
-Good Number!         001
-Good Number!         009
-Naughty Number!      018
-Good Number!         016
-Good Number!         026
-Good Number!         018
-Naughty Number!      007
-Good Number!         013
-Naughty Number!      017
-Good Number!         036
-Good Number!         018
-Good Number!         004
-Good Number!         019
-Good Number!         013
-Naughty Number!      018
-Naughty Number!      012
-Good Number!         015
-Good Number!         016
-Good Number!         004
-Good Number!         003
-Naughty Number!      006
-Good Number!         015
-Naughty Number!      011
-Good Number!         016
-Good Number!         014
-Naughty Number!      007
-Naughty Number!      022
-Good Number!         006
-Good Number!         002
-Naughty Number!      005
-Good Number!         020
-Good Number!         003
-Good Number!         004
-Naughty Number!      006
-Good Number!         019
-Good Number!         011
-Naughty Number!      018
-Good Number!         023
-Naughty Number!      008
-Good Number!         022
-Good Number!         005
-Good Number!         017
-Naughty Number!      011
-Naughty Number!      007
-Good Number!         003
-Good Number!         045
-Naughty Number!      017
-Naughty Number!      007
-Good Number!         031
-Naughty Number!      017
-Good Number!         026
-Good Number!         013
-Good Number!         014
-Naughty Number!      010
-Good Number!         012
-Good Number!         013
-Good Number!         013
-Good Number!         016
-Naughty Number!      018
-Good Number!         016
-Good Number!         027
-Naughty Number!      879
-Resulting Frequency: 590
+Nice!                         000000009
+Nice!                         000000001
+Naughty!                      000000011
+Nice!                         000000012
+Nice!                         000000017
+Naughty!                      000000006
+Nice!                         000000014
+Naughty!                      000000001
+Naughty!                      000000017
+Nice!                         000000005
+Naughty!                      000000006
+Naughty!                      000000010
+Naughty!                      000000014
+Nice!                         000000009
+Nice!                         000000012
+Naughty!                      000000010
+Naughty!                      000000013
+Nice!                         000000010
+Naughty!                      000000009
+Nice!                         000000004
+Naughty!                      000000017
+Naughty!                      000000011
+Nice!                         000000017
+Nice!                         000000020
+Naughty!                      000000015
+Naughty!                      000000013
+Nice!                         000000017
+Naughty!                      000000010
+Nice!                         000000019
+Naughty!                      000000015
+Nice!                         000000010
+Naughty!                      000000003
+Naughty!                      000000014
+Naughty!                      000000003
+Naughty!                      000000006
+Naughty!                      000000018
+Naughty!                      000000014
+Nice!                         000000001
+Naughty!                      000000019
+Nice!                         000000011
+Naughty!                      000000012
+Nice!                         000000017
+Naughty!                      000000002
+Naughty!                      000000008
+Nice!                         000000016
+Nice!                         000000015
+Nice!                         000000006
+Naughty!                      000000001
+Nice!                         000000006
+Naughty!                      000000017
+Nice!                         000000020
+Naughty!                      000000006
+Naughty!                      000000019
+Naughty!                      000000018
+Naughty!                      000000001
+Nice!                         000000003
+Naughty!                      000000019
+Naughty!                      000000016
+Nice!                         000000011
+Naughty!                      000000005
+Nice!                         000000016
+Naughty!                      000000005
+Naughty!                      000000002
+Naughty!                      000000011
+Naughty!                      000000001
+Naughty!                      000000002
+Nice!                         000000009
+Naughty!                      000000008
+Naughty!                      000000008
+Naughty!                      000000011
+Naughty!                      000000019
+Naughty!                      000000006
+Naughty!                      000000014
+Nice!                         000000013
+Naughty!                      000000014
+Naughty!                      000000007
+Naughty!                      000000006
+Nice!                         000000016
+Naughty!                      000000015
+Nice!                         000000008
+Naughty!                      000000001
+Naughty!                      000000014
+Nice!                         000000002
+Nice!                         000000008
+Naughty!                      000000019
+Nice!                         000000002
+Nice!                         000000003
+Naughty!                      000000016
+Nice!                         000000006
+Naughty!                      000000009
+Naughty!                      000000006
+Naughty!                      000000014
+Nice!                         000000018
+Nice!                         000000004
+Nice!                         000000009
+Nice!                         000000001
+Nice!                         000000003
+Naughty!                      000000010
+Nice!                         000000013
+Naughty!                      000000017
+Nice!                         000000016
+Nice!                         000000019
+Nice!                         000000018
+Nice!                         000000020
+Nice!                         000000004
+Naughty!                      000000009
+Naughty!                      000000016
+Nice!                         000000018
+Naughty!                      000000010
+Nice!                         000000015
+Naughty!                      000000012
+Nice!                         000000016
+Naughty!                      000000015
+Nice!                         000000018
+Nice!                         000000009
+Nice!                         000000015
+Naughty!                      000000016
+Nice!                         000000003
+Nice!                         000000001
+Naughty!                      000000014
+Naughty!                      000000002
+Nice!                         000000018
+Naughty!                      000000013
+Naughty!                      000000011
+Nice!                         000000015
+Nice!                         000000016
+Naughty!                      000000018
+Naughty!                      000000001
+Naughty!                      000000010
+Nice!                         000000012
+Nice!                         000000030
+Nice!                         000000012
+Nice!                         000000007
+Naughty!                      000000003
+Nice!                         000000006
+Nice!                         000000009
+Nice!                         000000003
+Nice!                         000000012
+Naughty!                      000000018
+Nice!                         000000004
+Nice!                         000000013
+Nice!                         000000002
+Naughty!                      000000012
+Nice!                         000000013
+Nice!                         000000006
+Nice!                         000000006
+Nice!                         000000005
+Naughty!                      000000023
+Nice!                         000000001
+Nice!                         000000016
+Naughty!                      000000022
+Nice!                         000000003
+Naughty!                      000000010
+Naughty!                      000000020
+Naughty!                      000000007
+Naughty!                      000000012
+Naughty!                      000000002
+Nice!                         000000012
+Nice!                         000000008
+Naughty!                      000000013
+Naughty!                      000000002
+Naughty!                      000000015
+Naughty!                      000000006
+Naughty!                      000000013
+Nice!                         000000012
+Nice!                         000000009
+Nice!                         000000021
+Nice!                         000000009
+Naughty!                      000000006
+Nice!                         000000022
+Naughty!                      000000003
+Nice!                         000000012
+Nice!                         000000005
+Nice!                         000000015
+Nice!                         000000016
+Naughty!                      000000011
+Nice!                         000000013
+Nice!                         000000008
+Nice!                         000000019
+Naughty!                      000000001
+Nice!                         000000006
+Nice!                         000000003
+Nice!                         000000009
+Nice!                         000000010
+Nice!                         000000015
+Naughty!                      000000004
+Nice!                         000000009
+Nice!                         000000004
+Nice!                         000000002
+Naughty!                      000000005
+Naughty!                      000000015
+Naughty!                      000000001
+Nice!                         000000005
+Nice!                         000000015
+Naughty!                      000000018
+Naughty!                      000000011
+Naughty!                      000000013
+Nice!                         000000006
+Naughty!                      000000013
+Naughty!                      000000011
+Naughty!                      000000002
+Nice!                         000000019
+Nice!                         000000019
+Nice!                         000000016
+Naughty!                      000000019
+Nice!                         000000006
+Nice!                         000000018
+Nice!                         000000014
+Nice!                         000000006
+Naughty!                      000000011
+Nice!                         000000007
+Nice!                         000000001
+Naughty!                      000000012
+Nice!                         000000017
+Nice!                         000000016
+Nice!                         000000007
+Nice!                         000000017
+Nice!                         000000019
+Naughty!                      000000004
+Nice!                         000000016
+Nice!                         000000005
+Naughty!                      000000013
+Naughty!                      000000005
+Naughty!                      000000013
+Nice!                         000000007
+Naughty!                      000000008
+Nice!                         000000002
+Naughty!                      000000004
+Nice!                         000000014
+Naughty!                      000000018
+Naughty!                      000000013
+Naughty!                      000000010
+Naughty!                      000000006
+Naughty!                      000000002
+Nice!                         000000021
+Naughty!                      000000015
+Nice!                         000000004
+Naughty!                      000000003
+Naughty!                      000000006
+Naughty!                      000000006
+Nice!                         000000003
+Naughty!                      000000004
+Nice!                         000000017
+Naughty!                      000000007
+Nice!                         000000001
+Nice!                         000000014
+Nice!                         000000009
+Nice!                         000000016
+Nice!                         000000003
+Naughty!                      000000015
+Naughty!                      000000002
+Nice!                         000000004
+Naughty!                      000000011
+Naughty!                      000000011
+Naughty!                      000000015
+Nice!                         000000016
+Naughty!                      000000014
+Nice!                         000000015
+Nice!                         000000008
+Naughty!                      000000005
+Naughty!                      000000014
+Naughty!                      000000014
+Naughty!                      000000008
+Naughty!                      000000004
+Naughty!                      000000015
+Nice!                         000000003
+Naughty!                      000000019
+Naughty!                      000000006
+Naughty!                      000000005
+Naughty!                      000000017
+Nice!                         000000030
+Nice!                         000000009
+Nice!                         000000004
+Nice!                         000000002
+Nice!                         000000015
+Nice!                         000000018
+Naughty!                      000000004
+Naughty!                      000000002
+Naughty!                      000000006
+Naughty!                      000000016
+Nice!                         000000014
+Naughty!                      000000010
+Naughty!                      000000005
+Nice!                         000000019
+Nice!                         000000038
+Nice!                         000000016
+Naughty!                      000000004
+Nice!                         000000007
+Nice!                         000000011
+Nice!                         000000019
+Nice!                         000000003
+Nice!                         000000009
+Naughty!                      000000011
+Nice!                         000000018
+Naughty!                      000000010
+Nice!                         000000004
+Naughty!                      000000011
+Naughty!                      000000012
+Naughty!                      000000001
+Naughty!                      000000004
+Nice!                         000000014
+Naughty!                      000000006
+Nice!                         000000011
+Nice!                         000000016
+Nice!                         000000014
+Nice!                         000000007
+Nice!                         000000002
+Nice!                         000000003
+Naughty!                      000000017
+Nice!                         000000018
+Nice!                         000000015
+Naughty!                      000000009
+Nice!                         000000007
+Nice!                         000000009
+Naughty!                      000000004
+Nice!                         000000010
+Nice!                         000000001
+Nice!                         000000012
+Naughty!                      000000001
+Naughty!                      000000019
+Naughty!                      000000018
+Naughty!                      000000010
+Naughty!                      000000007
+Naughty!                      000000005
+Naughty!                      000000012
+Nice!                         000000019
+Nice!                         000000004
+Nice!                         000000012
+Nice!                         000000004
+Naughty!                      000000017
+Naughty!                      000000006
+Naughty!                      000000006
+Naughty!                      000000021
+Naughty!                      000000011
+Nice!                         000000001
+Nice!                         000000002
+Naughty!                      000000013
+Naughty!                      000000007
+Nice!                         000000010
+Naughty!                      000000007
+Nice!                         000000006
+Nice!                         000000006
+Nice!                         000000016
+Naughty!                      000000010
+Nice!                         000000016
+Nice!                         000000013
+Naughty!                      000000017
+Nice!                         000000021
+Naughty!                      000000007
+Naughty!                      000000007
+Nice!                         000000013
+Naughty!                      000000012
+Nice!                         000000007
+Naughty!                      000000014
+Naughty!                      000000004
+Naughty!                      000000001
+Naughty!                      000000018
+Naughty!                      000000006
+Naughty!                      000000028
+Naughty!                      000000012
+Nice!                         000000010
+Nice!                         000000017
+Naughty!                      000000013
+Naughty!                      000000003
+Nice!                         000000020
+Naughty!                      000000005
+Nice!                         000000069
+Naughty!                      000000016
+Nice!                         000000002
+Naughty!                      000000008
+Nice!                         000000027
+Nice!                         000000002
+Nice!                         000000017
+Naughty!                      000000012
+Nice!                         000000009
+Nice!                         000000005
+Nice!                         000000020
+Naughty!                      000000005
+Nice!                         000000008
+Naughty!                      000000006
+Nice!                         000000019
+Naughty!                      000000009
+Nice!                         000000007
+Nice!                         000000006
+Nice!                         000000012
+Nice!                         000000013
+Nice!                         000000004
+Nice!                         000000013
+Nice!                         000000012
+Nice!                         000000005
+Nice!                         000000019
+Nice!                         000000014
+Nice!                         000000001
+Naughty!                      000000007
+Naughty!                      000000009
+Naughty!                      000000010
+Nice!                         000000007
+Naughty!                      000000009
+Naughty!                      000000017
+Naughty!                      000000014
+Naughty!                      000000008
+Nice!                         000000011
+Nice!                         000000019
+Nice!                         000000005
+Naughty!                      000000018
+Naughty!                      000000002
+Naughty!                      000000018
+Naughty!                      000000004
+Nice!                         000000002
+Nice!                         000000018
+Nice!                         000000012
+Nice!                         000000007
+Naughty!                      000000011
+Naughty!                      000000007
+Naughty!                      000000020
+Naughty!                      000000013
+Naughty!                      000000016
+Naughty!                      000000001
+Nice!                         000000007
+Naughty!                      000000015
+Naughty!                      000000004
+Naughty!                      000000015
+Nice!                         000000013
+Naughty!                      000000012
+Nice!                         000000017
+Nice!                         000000008
+Naughty!                      000000019
+Nice!                         000000018
+Nice!                         000000015
+Naughty!                      000000011
+Naughty!                      000000018
+Naughty!                      000000018
+Naughty!                      000000003
+Nice!                         000000016
+Nice!                         000000017
+Naughty!                      000000018
+Naughty!                      000000019
+Naughty!                      000000007
+Nice!                         000000003
+Nice!                         000000009
+Nice!                         000000013
+Naughty!                      000000016
+Naughty!                      000000018
+Naughty!                      000000014
+Nice!                         000000042
+Nice!                         000000032
+Nice!                         000000012
+Nice!                         000000001
+Nice!                         000000018
+Naughty!                      000000020
+Naughty!                      000000006
+Nice!                         000000011
+Naughty!                      000000007
+Nice!                         000000014
+Nice!                         000000020
+Naughty!                      000000009
+Nice!                         000000017
+Naughty!                      000000013
+Nice!                         000000014
+Nice!                         000000008
+Naughty!                      000000007
+Nice!                         000000009
+Naughty!                      000000020
+Nice!                         000000003
+Naughty!                      000000016
+Naughty!                      000000005
+Nice!                         000000015
+Nice!                         000000017
+Nice!                         000000001
+Nice!                         000000016
+Naughty!                      000000004
+Nice!                         000000013
+Nice!                         000000016
+Naughty!                      000000002
+Nice!                         000000005
+Nice!                         000000015
+Nice!                         000000008
+Naughty!                      000000022
+Nice!                         000000016
+Nice!                         000000017
+Naughty!                      000000013
+Naughty!                      000000016
+Nice!                         000000003
+Naughty!                      000000002
+Nice!                         000000010
+Naughty!                      000000014
+Nice!                         000000008
+Nice!                         000000018
+Naughty!                      000000014
+Naughty!                      000000018
+Naughty!                      000000006
+Naughty!                      000000002
+Nice!                         000000001
+Naughty!                      000000004
+Naughty!                      000000007
+Naughty!                      000000004
+Nice!                         000000002
+Nice!                         000000015
+Nice!                         000000018
+Naughty!                      000000015
+Nice!                         000000009
+Nice!                         000000009
+Naughty!                      000000005
+Nice!                         000000023
+Nice!                         000000016
+Naughty!                      000000015
+Nice!                         000000013
+Naughty!                      000000007
+Nice!                         000000011
+Naughty!                      000000016
+Nice!                         000000020
+Naughty!                      000000007
+Nice!                         000000013
+Nice!                         000000014
+Nice!                         000000002
+Nice!                         000000009
+Naughty!                      000000019
+Nice!                         000000015
+Nice!                         000000005
+Nice!                         000000006
+Naughty!                      000000015
+Naughty!                      000000005
+Naughty!                      000000019
+Nice!                         000000022
+Naughty!                      000000010
+Nice!                         000000002
+Nice!                         000000026
+Nice!                         000000003
+Naughty!                      000000012
+Nice!                         000000014
+Naughty!                      000000040
+Nice!                         000000015
+Naughty!                      000000003
+Nice!                         000000018
+Nice!                         000000050
+Nice!                         000000025
+Nice!                         000000047
+Naughty!                      000000016
+Nice!                         000000047
+Nice!                         000000017
+Nice!                         000000001
+Nice!                         000000006
+Naughty!                      000000010
+Naughty!                      000000007
+Nice!                         000000018
+Nice!                         000000008
+Nice!                         000000006
+Nice!                         000000025
+Naughty!                      000000004
+Nice!                         000000041
+Naughty!                      000000128
+Naughty!                      000000003
+Naughty!                      000000060
+Naughty!                      000000094
+Naughty!                      000000005
+Naughty!                      000000037
+Naughty!                      000000020
+Naughty!                      000000023
+Nice!                         000000012
+Naughty!                      000000007
+Nice!                         000000012
+Naughty!                      000000008
+Nice!                         000000007
+Naughty!                      000000017
+Naughty!                      000000006
+Naughty!                      000000005
+Naughty!                      000000037
+Naughty!                      000000001
+Nice!                         000000014
+Naughty!                      000000018
+Nice!                         000000001
+Nice!                         000000019
+Naughty!                      000000012
+Naughty!                      000000017
+Naughty!                      000000006
+Nice!                         000000018
+Nice!                         000000020
+Naughty!                      000000025
+Naughty!                      000000009
+Nice!                         000000061
+Nice!                         000000011
+Nice!                         000000115
+Naughty!                      000000073
+Nice!                         000000057
+Naughty!                      000000065
+Nice!                         000000009
+Naughty!                      000000143
+Nice!                         000000008
+Nice!                         000000976
+Nice!                         000082255
+Nice!                         000000003
+Naughty!                      000000010
+Naughty!                      000000008
+Naughty!                      000000018
+Naughty!                      000000007
+Nice!                         000000014
+Naughty!                      000000006
+Naughty!                      000000003
+Naughty!                      000000003
+Nice!                         000000018
+Naughty!                      000000001
+Naughty!                      000000006
+Naughty!                      000000009
+Nice!                         000000017
+Nice!                         000000006
+Naughty!                      000000010
+Nice!                         000000015
+Nice!                         000000005
+Nice!                         000000020
+Nice!                         000000010
+Nice!                         000000017
+Naughty!                      000000011
+Naughty!                      000000019
+Nice!                         000000015
+Naughty!                      000000008
+Naughty!                      000000010
+Nice!                         000000011
+Nice!                         000000019
+Nice!                         000000006
+Nice!                         000000002
+Nice!                         000000003
+Naughty!                      000000004
+Nice!                         000000015
+Nice!                         000000010
+Nice!                         000000011
+Nice!                         000000006
+Nice!                         000000013
+Nice!                         000000015
+Naughty!                      000000018
+Nice!                         000000015
+Naughty!                      000000013
+Naughty!                      000000006
+Nice!                         000000009
+Naughty!                      000000010
+Naughty!                      000000016
+Naughty!                      000000008
+Nice!                         000000022
+Nice!                         000000019
+Nice!                         000000015
+Nice!                         000000007
+Nice!                         000000002
+Nice!                         000000014
+Naughty!                      000000019
+Nice!                         000000013
+Nice!                         000000001
+Naughty!                      000000004
+Naughty!                      000000006
+Naughty!                      000000002
+Naughty!                      000000013
+Naughty!                      000000016
+Nice!                         000000010
+Nice!                         000000007
+Naughty!                      000000008
+Nice!                         000000019
+Naughty!                      000000015
+Naughty!                      000000006
+Naughty!                      000000014
+Nice!                         000000013
+Naughty!                      000000021
+Naughty!                      000000004
+Naughty!                      000000017
+Nice!                         000000010
+Nice!                         000000013
+Naughty!                      000000014
+Nice!                         000000004
+Naughty!                      000000006
+Nice!                         000000008
+Nice!                         000000016
+Naughty!                      000000019
+Naughty!                      000000008
+Naughty!                      000000010
+Naughty!                      000000003
+Naughty!                      000000017
+Nice!                         000000012
+Nice!                         000000012
+Nice!                         000000021
+Nice!                         000000001
+Naughty!                      000000002
+Nice!                         000000006
+Nice!                         000000014
+Nice!                         000000018
+Nice!                         000000004
+Nice!                         000000018
+Naughty!                      000000016
+Nice!                         000000009
+Nice!                         000000013
+Nice!                         000000015
+Nice!                         000000012
+Nice!                         000000002
+Naughty!                      000000006
+Naughty!                      000000004
+Nice!                         000000018
+Nice!                         000000015
+Naughty!                      000000010
+Naughty!                      000000016
+Nice!                         000000017
+Naughty!                      000000015
+Nice!                         000000020
+Nice!                         000000019
+Nice!                         000000019
+Nice!                         000000003
+Naughty!                      000000019
+Nice!                         000000010
+Naughty!                      000000015
+Nice!                         000000016
+Nice!                         000000003
+Naughty!                      000000002
+Naughty!                      000000014
+Nice!                         000000008
+Nice!                         000000001
+Naughty!                      000000004
+Naughty!                      000000002
+Nice!                         000000007
+Naughty!                      000000020
+Naughty!                      000000011
+Nice!                         000000010
+Naughty!                      000000002
+Naughty!                      000000017
+Nice!                         000000006
+Naughty!                      000000009
+Naughty!                      000000014
+Naughty!                      000000007
+Naughty!                      000000015
+Nice!                         000000013
+Nice!                         000000019
+Nice!                         000000018
+Nice!                         000000017
+Nice!                         000000008
+Naughty!                      000000002
+Naughty!                      000000010
+Naughty!                      000000011
+Nice!                         000000009
+Naughty!                      000000015
+Nice!                         000000009
+Naughty!                      000000004
+Naughty!                      000000009
+Nice!                         000000018
+Nice!                         000000016
+Nice!                         000000004
+Nice!                         000000013
+Naughty!                      000000001
+Nice!                         000000005
+Nice!                         000000003
+Nice!                         000000003
+Nice!                         000000017
+Naughty!                      000000003
+Nice!                         000000007
+Naughty!                      000000013
+Nice!                         000000018
+Naughty!                      000000016
+Nice!                         000000005
+Nice!                         000000017
+Nice!                         000000018
+Nice!                         000000014
+Naughty!                      000000013
+Naughty!                      000000016
+Nice!                         000000009
+Naughty!                      000000017
+Nice!                         000000007
+Nice!                         000000005
+Naughty!                      000000002
+Naughty!                      000000015
+Naughty!                      000000020
+Nice!                         000000003
+Nice!                         000000008
+Naughty!                      000000001
+Nice!                         000000006
+Naughty!                      000000007
+Naughty!                      000000010
+Naughty!                      000000006
+Nice!                         000000004
+Naughty!                      000000008
+Nice!                         000000015
+Nice!                         000000001
+Naughty!                      000000011
+Nice!                         000000002
+Nice!                         000000006
+Nice!                         000000015
+Nice!                         000000017
+Naughty!                      000000011
+Nice!                         000000016
+Nice!                         000000012
+Nice!                         000000005
+Nice!                         000000014
+Naughty!                      000000005
+Naughty!                      000000019
+Nice!                         000000017
+Nice!                         000000020
+Naughty!                      000000016
+Nice!                         000000012
+Naughty!                      000000011
+Nice!                         000000017
+Nice!                         000000007
+Nice!                         000000018
+Nice!                         000000010
+Naughty!                      000000012
+Nice!                         000000013
+Naughty!                      000000016
+Nice!                         000000018
+Nice!                         000000017
+Naughty!                      000000010
+Naughty!                      000000013
+Naughty!                      000000010
+Naughty!                      000000013
+Nice!                         000000010
+Nice!                         000000010
+Nice!                         000000013
+Naughty!                      000000001
+Nice!                         000000009
+Nice!                         000000001
+Naughty!                      000000014
+Nice!                         000000007
+Naughty!                      000000004
+Nice!                         000000009
+Naughty!                      000000002
+Naughty!                      000000019
+Naughty!                      000000015
+Nice!                         000000001
+Naughty!                      000000003
+Naughty!                      000000006
+Naughty!                      000000010
+Nice!                         000000007
+Naughty!                      000000001
+Naughty!                      000000002
+Naughty!                      000000018
+Nice!                         000000012
+Naughty!                      000000019
+Naughty!                      000000006
+Nice!                         000000008
+Nice!                         000000008
+Naughty!                      000000011
+Naughty!                      000000004
+Naughty!                      000000011
+Naughty!                      000000007
+Nice!                         000000004
+Nice!                         000000017
+Nice!                         000000015
+Nice!                         000000005
+Nice!                         000000016
+Nice!                         000000004
+Naughty!                      000000002
+Nice!                         000000017
+Naughty!                      000000024
+Nice!                         000000018
+Nice!                         000000009
+Naughty!                      000000006
+Naughty!                      000000006
+Naughty!                      000000028
+Naughty!                      000000023
+Naughty!                      000000011
+Naughty!                      000000013
+Nice!                         000000022
+Naughty!                      000000021
+Naughty!                      000000003
+Nice!                         000000018
+Naughty!                      000000022
+Nice!                         000000005
+Naughty!                      000000009
+Nice!                         000000027
+Nice!                         000000010
+Nice!                         000000016
+Nice!                         000000011
+Nice!                         000000009
+Nice!                         000000020
+Nice!                         000000022
+Naughty!                      000000002
+Nice!                         000000017
+Naughty!                      000000010
+Nice!                         000000006
+Naughty!                      000000007
+Nice!                         000000004
+Nice!                         000000006
+Nice!                         000000019
+Nice!                         000000005
+Naughty!                      000000008
+Nice!                         000000002
+Nice!                         000000010
+Nice!                         000000014
+Naughty!                      000000013
+Naughty!                      000000019
+Naughty!                      000000005
+Nice!                         000000016
+Nice!                         000000013
+Naughty!                      000000009
+Nice!                         000000019
+Nice!                         000000015
+Nice!                         000000012
+Nice!                         000000008
+Naughty!                      000000013
+Naughty!                      000000018
+Nice!                         000000014
+Naughty!                      000000005
+Nice!                         000000008
+Naughty!                      000000014
+Naughty!                      000000004
+Nice!                         000000005
+Nice!                         000000015
+Nice!                         000000009
+Nice!                         000000018
+Nice!                         000000014
+Naughty!                      000000010
+Naughty!                      000000013
+Naughty!                      000000001
+Nice!                         000000008
+Naughty!                      000000005
+Naughty!                      000000018
+Nice!                         000000011
+Naughty!                      000000007
+Naughty!                      000000012
+Nice!                         000000017
+Naughty!                      000000018
+Naughty!                      000000020
+Nice!                         000000018
+Naughty!                      000000009
+Naughty!                      000000017
+Nice!                         000000009
+Nice!                         000000009
+Nice!                         000000013
+Nice!                         000000019
+Naughty!                      000000005
+Naughty!                      000000002
+Naughty!                      000000020
+Naughty!                      000000001
+Nice!                         000000018
+Nice!                         000000018
+Nice!                         000000015
+Naughty!                      000000003
+Nice!                         000000014
+Naughty!                      000000005
+Nice!                         000000011
+Naughty!                      000000018
+Nice!                         000000016
+Nice!                         000000017
+Nice!                         000000001
+Nice!                         000000019
+Nice!                         000000001
+Nice!                         000000019
+Nice!                         000000012
+Nice!                         000000011
+Nice!                         000000015
+Nice!                         000000009
+Nice!                         000000002
+Nice!                         000000017
+Naughty!                      000000005
+Naughty!                      000000006
+Naughty!                      000000005
+Naughty!                      000000020
+Nice!                         000000010
+Nice!                         000000001
+Naughty!                      000000005
+Naughty!                      000000017
+Naughty!                      000000003
+Naughty!                      000000018
+Nice!                         000000013
+Nice!                         000000018
+Naughty!                      000000007
+Nice!                         000000011
+Naughty!                      000000005
+Naughty!                      000000013
+Nice!                         000000002
+Nice!                         000000017
+Nice!                         000000001
+Nice!                         000000009
+Naughty!                      000000018
+Nice!                         000000016
+Nice!                         000000026
+Nice!                         000000018
+Naughty!                      000000007
+Nice!                         000000013
+Naughty!                      000000017
+Nice!                         000000036
+Nice!                         000000018
+Nice!                         000000004
+Nice!                         000000019
+Nice!                         000000013
+Naughty!                      000000018
+Naughty!                      000000012
+Nice!                         000000015
+Nice!                         000000016
+Nice!                         000000004
+Nice!                         000000003
+Naughty!                      000000006
+Nice!                         000000015
+Naughty!                      000000011
+Nice!                         000000016
+Nice!                         000000014
+Naughty!                      000000007
+Naughty!                      000000022
+Nice!                         000000006
+Nice!                         000000002
+Naughty!                      000000005
+Nice!                         000000020
+Nice!                         000000003
+Nice!                         000000004
+Naughty!                      000000006
+Nice!                         000000019
+Nice!                         000000011
+Naughty!                      000000018
+Nice!                         000000023
+Naughty!                      000000008
+Nice!                         000000022
+Nice!                         000000005
+Nice!                         000000017
+Naughty!                      000000011
+Naughty!                      000000007
+Nice!                         000000003
+Nice!                         000000045
+Naughty!                      000000017
+Naughty!                      000000007
+Nice!                         000000031
+Naughty!                      000000017
+Nice!                         000000026
+Nice!                         000000013
+Nice!                         000000014
+Naughty!                      000000010
+Nice!                         000000012
+Nice!                         000000013
+Nice!                         000000013
+Nice!                         000000016
+Naughty!                      000000018
+Nice!                         000000016
+Nice!                         000000027
+Naughty!                      000083879
+Resulting Frequency:          000000590
